@@ -22,12 +22,13 @@ int changestock(struct shoe *inventory, int count);
 int changeprice(struct shoe *inventory, int count);
 int enterNewRecord(struct shoe *inventory, int count);
 
-#include <D:\New folder\2nd Semester\COMP 003 - Computer Programming 2\Activities\8_StructuresPt2\ANSI-color-codes.h>
-#include <D:\New folder\2nd Semester\COMP 003 - Computer Programming 2\Activities\8_StructuresPt2\functions\displayrecord.c>
-#include <D:\New folder\2nd Semester\COMP 003 - Computer Programming 2\Activities\8_StructuresPt2\functions\changestock.c>
-#include <D:\New folder\2nd Semester\COMP 003 - Computer Programming 2\Activities\8_StructuresPt2\functions\changeprice.c>
-#include <D:\New folder\2nd Semester\COMP 003 - Computer Programming 2\Activities\8_StructuresPt2\functions\menu.c>
-#include <D:\New folder\2nd Semester\COMP 003 - Computer Programming 2\Activities\8_StructuresPt2\functions\enterNewRecord.c>
+** Update file paths. Example: <D:\New folder\...\functions\menu.c>**
+#include <ANSI-color-codes.h>
+#include <displayrecord.c>
+#include <changestock.c>
+#include <changeprice.c>
+#include <menu.c>
+#include <enterNewRecord.c>
 
 int main (int argc, char *argv[]) {
 
